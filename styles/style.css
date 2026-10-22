@@ -1,6 +1,6 @@
 header {
   background-color: #ffffff;
-  background-image: url("background_header.svg");
+  background-image: url("images/background_header.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -85,7 +85,7 @@ a {
 
 .header-image {
   position: absolute;
-  background-image: url("inside_coffee_shop.png");
+  background-image: url("images/inside_coffee_shop.png");
   width: 646px;
   height: 568px;
   top: 124px;
