@@ -1,0 +1,118 @@
+header {
+  background-color: #ffffff;
+  background-image: url("background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-left: 80px;
+  height: 800px;
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.logo {
+  position: relative;
+  left: 30px;
+  margin-top: 30px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 26px;
+}
+
+#reservar_mesa {
+  margin-right: 20px;
+}
+
+a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.header-title {
+  max-width: 709px;
+  position: absolute;
+  top: 183px;
+  left: 80px;
+}
+
+.span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #ff976b;
+}
+
+.span-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.header-description {
+  max-width: 683px;
+  position: absolute;
+  top: 374px;
+  left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header-image {
+  position: absolute;
+  background-image: url("inside_coffee_shop.png");
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-hours {
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 5px;
+  color: #6f6f6f;
+}
+
+.header-address {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6f6f6f;
+}
