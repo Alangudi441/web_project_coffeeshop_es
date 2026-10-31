@@ -1,6 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
+
+/* --------- header info ---------*/
 
 .header {
   background-color: #ffffff;
@@ -21,8 +27,6 @@ body {
 }
 
 .nav-links {
-  color: #000;
-  transition: color 0.3s ease;
   display: flex;
   gap: 16px;
   list-style: none;
@@ -121,6 +125,8 @@ a {
 .info-text {
   margin: 0;
 }
+
+/* --------- reservation info ---------*/
 
 .reservation {
   background-color: #FFD6C5;
@@ -232,6 +238,8 @@ a {
   background-color: #2a2a2a;
   background-image: url("../images/check.svg");
 }
+
+/* --------- footer info ---------*/
 
 .footer {
   position: relative;
