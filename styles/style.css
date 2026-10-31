@@ -113,3 +113,8 @@ a {
 .info-text {
   margin: 0;
 }
+
+.reservation {
+  background-image: url("../images/background_reservation.svg");
+  background-color: #FFD6C5;
+}
