@@ -117,4 +117,43 @@ a {
 .reservation {
   background-image: url("../images/background_reservation.svg");
   background-color: #FFD6C5;
+  background-repeat: no-repeat;
+}
+
+.reservation-title {
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form__label {
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input {
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__button {
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #E96E3A;
+  border-color: #E96E3A;
+}
+
+.form__checkbox {
+  border-color: #4F4F4F; 
 }
